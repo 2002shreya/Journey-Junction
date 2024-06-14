@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="cssfolder/form.css">
+
+</head>
+<body>
+
+    <div class="alert-box">
+        <img src="../images/logo.png">
+        <p class="alert">msg</p>
+    </div>
+    
+    <div class="form">
+       <form action="login.jsp" method='post'>
+        <h1 class="heading">Log in</h1>
+        <input type="email" placeholder="email" autocomplete="off" class="email" name="email"  required>
+        <input type="password" placeholder="password" autocomplete="off" class="password" name="pwd"  required>
+        <input type='submit' class="submit-btn" value='login'>
+        <a href="register.html" class="link">don't have an account? Register one</a>
+        </form>
+    </div>
+
+    <script src="jsfolder/form.js"></script>
+    
+</body>
+</html>
